@@ -1,0 +1,165 @@
+{UTF-8}
+Accesibilidad Multimodal  = A FUNCTION OF( Eficiencia operativa)
+	~	
+	~		|
+
+Acceso a mercados  = A FUNCTION OF( Productividad)
+	~	
+	~		|
+
+Capacidad de almacenamiento  = A FUNCTION OF( Infraestructura portuaria)
+	~	
+	~		|
+
+Competitividad  = A FUNCTION OF( Acceso a mercados,Sostenibilidad del puerto de Vacamonte\
+		)
+	~	
+	~		|
+
+Conflictos sociales  = A FUNCTION OF( Sostenibilidad del puerto de Vacamonte)
+	~	
+	~		|
+
+Contaminación Ambiental  = A FUNCTION OF( Medidas preventivas,Reformas regulatorias)
+	~	
+	~		|
+
+Daños ambientales  = A FUNCTION OF( Medidas preventivas,Reformas regulatorias,Sostenibilidad del puerto de Vacamonte\
+		)
+	~	
+	~		|
+
+Eficiencia operativa  = A FUNCTION OF( Capacidad de almacenamiento)
+	~	
+	~		|
+
+Factores politicos  = A FUNCTION OF( Conflictos sociales,Factores socioeconomicos)
+	~	
+	~		|
+
+Factores socioeconomicos  = A FUNCTION OF( Conflictos sociales)
+	~	
+	~		|
+
+Flota pesquera  = A FUNCTION OF( Sobrepesca)
+	~	
+	~		|
+
+Gestión de la pesca  = A FUNCTION OF( Flota pesquera,Sostenibilidad del puerto de Vacamonte\
+		)
+	~	
+	~		|
+
+Infraestructura portuaria  = A FUNCTION OF( Accesibilidad Multimodal,Sostenibilidad del puerto de Vacamonte\
+		)
+	~	
+	~		|
+
+Mecanismos de control  = A FUNCTION OF( Competitividad)
+	~	
+	~		|
+
+Medidas preventivas  = A FUNCTION OF( )
+	~	
+	~		|
+
+Productividad  = A FUNCTION OF( Mecanismos de control)
+	~	
+	~		|
+
+Reformas regulatorias  = A FUNCTION OF( )
+	~	
+	~		|
+
+Sobrepesca  = A FUNCTION OF( Gestión de la pesca)
+	~	
+	~		|
+
+Sostenibilidad del puerto de Vacamonte  = A FUNCTION OF( )
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Vensim Sans|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,100,0
+10,1,Sostenibilidad del puerto de Vacamonte,523,327,87,23,8,3,0,0,0,0,0,0
+10,2,Contaminación Ambiental,794,538,61,23,8,3,0,0,0,0,0,0
+10,3,Infraestructura portuaria,298,289,61,23,8,3,0,0,0,0,0,0
+10,4,Gestión de la pesca,281,402,53,23,8,3,0,0,0,0,0,0
+10,5,Competitividad,724,279,60,13,8,3,0,0,0,0,0,0
+10,6,Daños ambientales,691,401,49,23,8,3,0,0,0,0,0,0
+10,7,Conflictos sociales,513,225,40,23,8,3,0,0,0,0,0,0
+10,8,Eficiencia operativa,148,180,39,23,8,3,0,0,0,0,0,0
+10,9,Accesibilidad Multimodal,286,189,52,23,8,3,0,0,0,0,0,0
+10,10,Medidas preventivas,615,508,47,23,8,3,0,0,0,0,0,0
+10,11,Reformas regulatorias,832,433,49,23,8,3,0,0,0,0,0,0
+10,12,Capacidad de almacenamiento,125,282,67,23,8,3,0,0,0,0,0,0
+10,13,Productividad,879,152,55,13,8,3,0,0,0,0,0,0
+10,14,Mecanismos de control,694,167,62,23,8,3,0,0,0,0,0,0
+10,15,Acceso a mercados,867,267,41,23,8,3,0,0,0,0,0,0
+10,16,Factores socioeconomicos,391,107,70,23,8,3,0,0,0,0,0,0
+10,17,Factores politicos,543,106,35,23,8,3,0,0,0,0,0,0
+1,18,1,7,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(497,280)|
+1,19,1,5,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(610,271)|
+1,20,1,3,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(405,288)|
+1,21,1,4,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(410,387)|
+1,22,1,6,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(594,384)|
+1,23,3,12,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(216,326)|
+1,24,8,9,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(197,131)|
+1,25,7,17,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(545,172)|
+1,26,7,16,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(418,193)|
+1,27,16,17,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(462,47)|
+1,28,5,14,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(675,204)|
+1,29,14,13,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(763,58)|
+1,30,13,15,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(910,236)|
+1,31,15,5,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(804,329)|
+1,32,12,8,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(71,234)|
+1,33,9,3,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(331,234)|
+1,34,10,2,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(691,577)|
+1,35,11,2,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(879,494)|
+10,36,Sobrepesca,150,458,47,13,8,3,0,0,0,0,0,0
+1,37,4,36,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(167,402)|
+10,38,Flota pesquera,276,513,59,13,8,3,0,0,0,0,0,0
+1,39,36,38,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(172,532)|
+1,40,38,4,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(314,469)|
+1,41,11,6,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(765,376)|
+1,42,10,6,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(621,450)|
+///---\\\
+:L<%^E!@
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Accesibilidad Multimodal
+24:0
+25:0
+26:0
